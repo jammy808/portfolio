@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +8,8 @@
     outline: none;
     text-decoration: none;
     scroll-behavior: smooth;
-    font-family: 'Nunito, san-serif';
+    font-family: "Protest Strike", sans-serif;
+    letter-spacing: .11rem;
 }
 
 html{
