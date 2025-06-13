@@ -126,6 +126,32 @@ function Info3() {
     }
 }
 
+function Info4() {
+    var additionalContent = document.getElementById("info-4");
+    var readMoreBtn = document.getElementById("read-4");
+
+    if (additionalContent.style.maxHeight) {
+        additionalContent.style.maxHeight = null;
+        readMoreBtn.textContent = "Info ++";
+    } else {
+        additionalContent.style.maxHeight = additionalContent.scrollHeight + "px";
+        readMoreBtn.textContent = "Info --";
+    }
+}
+
+function Info5() {
+    var additionalContent = document.getElementById("info-5");
+    var readMoreBtn = document.getElementById("read-5");
+
+    if (additionalContent.style.maxHeight) {
+        additionalContent.style.maxHeight = null;
+        readMoreBtn.textContent = "Info ++";
+    } else {
+        additionalContent.style.maxHeight = additionalContent.scrollHeight + "px";
+        readMoreBtn.textContent = "Info --";
+    }
+}
+
 //logo 
 const hoverElement = document.getElementById('print');
 
