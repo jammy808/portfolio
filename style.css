@@ -274,7 +274,7 @@ section{
 .portfolio-box img{
     width: 100%;
     transition: .5s ease;
-    opacity: 0.7;
+    /* opacity: 0.9; */
 }
 .portfolio-box:hover img {
     transform: scale(1.1);
@@ -351,6 +351,27 @@ section{
     margin-left: 32% ;
 }
 
+.portfolio-dabba #info-4{
+    font-size:1.6rem ;
+    margin: 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+.portfolio-dabba #read-4{
+    margin-left: 32% ;
+}
+
+.portfolio-dabba #info-5{
+    font-size:1.6rem ;
+    margin: 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+.portfolio-dabba #read-5{
+    margin-left: 32% ;
+}
 
 footer{
     display: flex;
