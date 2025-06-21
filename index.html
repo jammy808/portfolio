@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/719584d9c7.js" crossorigin="anonymous"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -69,48 +70,48 @@
         </div>
     </section>
 
-     <!--Skils Section Design-->
-     <section class="services" id="services">
-        <h2 class="heading">My <Span>Skills</Span></h2>
+    <!--Skils Section Design-->
+    <section class="services" id="services">
+    <h2 class="heading">My <Span>Skills</Span></h2>
 
-        <div class="services-container">
+    <div class="services-container">
 
-            <div class="services-box">
-                <i class='bx bx-code-alt' id="s"></i>
-                <h3>Front-end</h3>
-                <div class="skills">
-                <i class='bx bxl-html5'> HTML 5</i>
-                <i class='bx bxl-css3' > CSS 3</i>
-                <i class='bx bxl-react' > React (basic)</i>
-                <i class='bx bxl-tailwind-css' > Tailwind-CSS</i>
-                </div>
-
+        <div class="services-box">
+            <i class='bx bx-code-alt' id="s"></i>
+            <h3>Front-end</h3>
+            <div class="skills">
+            <i class='bx bxl-html5'> HTML 5</i>
+            <i class='bx bxl-css3' > CSS 3</i>
+            <i class='bx bxl-react' > ReactJs NextJs </i>
+            <i class='bx bxl-tailwind-css' > Tailwind-CSS Shadcn/ui</i>
             </div>
 
-            <div class="services-box">
-                <i class='bx bx-code-curly' id="s"></i>
-                <h3>Back-end</h3>
-                <div class="skills">
-                    <i class='bx bxl-nodejs' > Node.js</i>
-                    <i class='bx bxl-mongodb' > MongoDB</i>
-                    <i class='bx bxl-git'> Git</i>
-                    <i class='bx bx-shape-square'> Express.js</i>
-                </div>
+        </div>
 
+        <div class="services-box">
+            <i class='bx bx-code-curly' id="s"></i>
+            <h3>Back-end</h3>
+            <div class="skills">
+                <i class='bx bxl-nodejs' > Node.js ExpressJs Prisma</i>
+                <i class='bx bxl-mongodb' > MongoDB PostgreSQL Firebase</i>
+                <i class='bx bxl-git'> Git & Github</i>
+                <i class='bx bx-shape-square'> Foundry</i>
             </div>
 
-            <div class="services-box">
-                <i class='bx bx-terminal' id="s"></i>
-                <h3>Languages</h3>
-                <div class="skills">
-                    <i class="fa-solid fa-copyright"></i>
-                    <i class='bx bxl-java'> Java</i>
-                    <i class='bx bxl-javascript' > Javascript</i>
-                    <i class='bx bxl-python' > Python (basic)</i>
-                </div>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bx-terminal' id="s"></i>
+            <h3>Languages</h3>
+            <div class="skills">
+                <i class='bx bxl-java'> Java</i>
+                <i class='bx bxl-javascript' > Javascript / Typescript</i>
+                <i class='bxr  bx-component'  style='color:#4f4f4f'> Solidity</i> 
+                <i class='bx bxl-python' > Python</i>
             </div>
         </div>
-     </section>
+    </div>
+    </section>
 
     <!--Project Section Design-->
     <section class="portfolio" id="portfolio">
@@ -124,7 +125,10 @@
                     <div class="portfolio-layer">
                         <h4>Yield-Nest</h4>
                         <p>Stake. Earn. Upgrade.</p>
-                        <a href="https://yeild-nest.vercel.app/" target="_blank"><i class='bx bx-link-external' id="l"></i></a>
+                        <div class="link-buttons">
+                            <a href="https://yeild-nest.vercel.app/" target="_blank"><i class='bx bx-link-external' id="l"></i></a>
+                            <a href="https://youtu.be/wNIEctDN8FM?si=WE2dxqQMgbWM7MXj" target="_blank"><i class='bxr  bxs-play-circle' id="1"'></i></a>
+                        </div>
                     </div>
                 </div>
                 <p id="info-1">The project uses a proxy staking contract with upgradeable logic and rewards users in a custom ERC-20 token, JamCoin. It’s built with Next.js, React, Tailwind, shadcn/ui, Web3.js, and Solidity using Foundry.</p>
@@ -133,14 +137,15 @@
 
             <div class="portfolio-dabba">
                 <div class="portfolio-box">
-                    <img src="images/jamWatch.png" alt="">
+                    <img src="images/diverr.png" alt="">
                     <div class="portfolio-layer">
-                        <h4>Jam Watch</h4>
-                        <p>Your Movie Haven Awaits!</p>
-                        <a href="https://jam-watch.vercel.app/" target="_blank"><i class='bx bx-link-external' id="l"></i></a>
+                        <h4>Diverr</h4>
+                        <p>Decentralized Freelancing with Blockchain-Powered Payments</p>
+                        <a href="https://youtu.be/o8FnIJ7XEnE?si=ID4hrO-OS5C7_M_f" target="_blank"><i class='bxr  bxs-play-circle' id="1"'></i></a>
                     </div>
                 </div>
-                <p id="info-2">The Frontend was designed using taiwind, I used mongoDB for database and node.js for server , the movie data is fetched using 6 different apis </p>
+                <p id="info-2">Built and deployed a decentralized freelance marketplace using the MERN stack with Solana-based wallet-to-wallet payments, replacing traditional gateways. 
+                    <br>Key features include gig posting, freelancer invites, one-click payments, and real-time transaction confirmation through Solana's system program.</p>
                 <a  class="btn " id="read-2" onclick="Info2()">Info ++</a>
             </div>
 
@@ -156,6 +161,20 @@
                 <p id="info-3">A Full-Stack website which is able handle registrations for events and updates of new events , Tailwind is used for styling and node.js, mongodb for backend.</p>
                 <a  class="btn " id="read-3" onclick="Info3()">Info ++</a>
             </div>
+
+            <div class="portfolio-dabba">
+                <div class="portfolio-box">
+                    <img src="images/jamWatch.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Jam Watch</h4>
+                        <p>Your Movie Haven Awaits!</p>
+                        <a href="https://jam-watch.vercel.app/" target="_blank"><i class='bx bx-link-external' id="l"></i></a>
+                    </div>
+                </div>
+                <p id="info-4">The Frontend was designed using taiwind, I used mongoDB for database and node.js for server , the movie data is fetched using 6 different apis </p>
+                <a  class="btn " id="read-4" onclick="Info4()">Info ++</a>
+            </div>
+
                 
             <div class="portfolio-dabba">
                 <div class="portfolio-box">
@@ -166,10 +185,10 @@
                         <a href="https://todolist-eta-cyan.vercel.app/" target="_blank"><i class='bx bx-link-external' id="l"></i></a>
                     </div>
                 </div>
-                <p id="info-4">This todo app was made using React.js and Tailwind.CSS, this is my first project using react and I am still learning,
+                <p id="info-5">This todo app was made using React.js and Tailwind.CSS, this is my first project using react and I am still learning,
                  <br>With this projects i was able to clear my concepts of components and hooks 
                 I just used Next.js to make the deployment easier </p>
-                <a  class="btn " id="read-4" onclick="Info4()">Info ++</a>
+                <a  class="btn " id="read-5" onclick="Info5()">Info ++</a>
             </div>
 
             <div class="portfolio-dabba">
@@ -181,11 +200,11 @@
                         <a href="https://pinterset.vercel.app/" target="_blank"><i class='bx bx-link-external' id="l"></i></a>
                     </div>
                 </div>
-                <p id="info-5">This is a Full-Stack socialmedia app <br>I tried to make a replica of Pinterest,it is still underprogress. 
+                <p id="info-6">This is a Full-Stack socialmedia app <br>I tried to make a replica of Pinterest,it is still underprogress. 
                     <br> On Frontend for styling tailwind.css is used, On Backend the server is created using Node.js and Express.js , for authentication passport.js is used and MongoDB is used as database</p>
-                <a  class="btn " id="read5" onclick="Info5()">Info ++</a>
-            </div>    
-
+                <a  class="btn " id="read-6" onclick="Info6()">Info ++</a>
+            </div>
+            
         </div>
     </section>
 
