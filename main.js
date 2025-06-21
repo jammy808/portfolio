@@ -152,6 +152,19 @@ function Info5() {
     }
 }
 
+function Info6() {
+    var additionalContent = document.getElementById("info-6");
+    var readMoreBtn = document.getElementById("read-6");
+
+    if (additionalContent.style.maxHeight) {
+        additionalContent.style.maxHeight = null;
+        readMoreBtn.textContent = "Info ++";
+    } else {
+        additionalContent.style.maxHeight = additionalContent.scrollHeight + "px";
+        readMoreBtn.textContent = "Info --";
+    }
+}
+
 //logo 
 const hoverElement = document.getElementById('print');
 
