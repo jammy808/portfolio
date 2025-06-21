@@ -373,6 +373,17 @@ section{
     margin-left: 32% ;
 }
 
+.portfolio-dabba #info-6{
+    font-size:1.6rem ;
+    margin: 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+.portfolio-dabba #read-6{
+    margin-left: 32% ;
+}
+
 footer{
     display: flex;
     justify-content: center;
@@ -489,4 +500,11 @@ footer a:hover{
     html{
         font-size: 50%;
     }
+}
+
+.link-buttons {
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+    align-items: center;
 }
