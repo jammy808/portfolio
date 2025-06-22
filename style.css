@@ -508,3 +508,158 @@ footer a:hover{
     justify-content: center; 
     align-items: center;
 }
+
+.experience {
+    background-color: white;
+    padding: 2rem 9%;
+    color: black;
+}
+
+.experience h2{
+    margin-bottom: 5rem;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.experience-card {
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 3rem 4rem;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    /* font-size: 2rem; */
+}
+
+.experience-card:hover {
+    border-color: #FFBF00;
+    transform: translateY(-4px);
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.exp-header h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.exp-header .role {
+    font-style: italic;
+    color: #555;
+    font-size: 1.5rem;
+}
+
+.duration {
+    font-size: 1.5rem;
+    color: #555;
+    white-space: nowrap;
+}
+
+.experience-card ul {
+    list-style: none;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.experience-card ul li {
+    position: relative;
+    margin-bottom: 0.7rem;
+    padding-left: 1.2rem;
+    line-height: 1.5;
+}
+
+.experience-card ul li::before {
+    content: "●";
+    position: absolute;
+    left: 0;
+    color: black;
+    font-size: 0.65rem;
+    top: 0.45rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .experience-card {
+    padding: 2rem 2.5rem;
+  }
+
+  .exp-header h3 {
+    font-size: 2rem;
+  }
+
+  .exp-header .role,
+  .duration,
+  .experience-card ul {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .experience {
+    padding: 2rem 5%;
+  }
+
+  .experience h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .experience-container {
+    gap: 3rem;
+  }
+
+  .experience-card {
+    padding: 2rem;
+  }
+
+  .exp-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .exp-header h3 {
+    font-size: 1.7rem;
+  }
+
+  .exp-header .role,
+  .duration {
+    font-size: 1.2rem;
+  }
+
+  .experience-card ul {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .experience-card {
+    padding: 1.5rem;
+  }
+
+  .exp-header h3 {
+    font-size: 1.5rem;
+  }
+
+  .exp-header .role,
+  .duration {
+    font-size: 1rem;
+  }
+
+  .experience-card ul {
+    font-size: 1rem;
+  }
+
+  .experience-card ul li {
+    margin-bottom: 0.6rem;
+  }
+}
